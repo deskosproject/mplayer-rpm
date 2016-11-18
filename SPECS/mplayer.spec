@@ -6,7 +6,7 @@
 
 Name:           mplayer
 Version:        1.1
-Release:        33.%{?pre}%{?dist}
+Release:        34.%{?pre}%{?dist}
 Summary:        Movie player playing most video formats and DVDs
 
 %if 0%{!?_without_amr:1}
@@ -374,6 +374,9 @@ update-desktop-database &>/dev/null || :
 %{_datadir}/mplayer/*.fp
 
 %changelog
+* Fri Nov 18 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.1-34.20150505svn
+- Rebuilt for DeskOS
+
 * Thu May 07 2015 Julian Sikorski <belegdol@fedoraproject.org> - 1.1-33.20150505svn
 - 20150505 snapshot
 - Updated ffmpeg patch

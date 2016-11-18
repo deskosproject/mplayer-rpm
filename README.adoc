@@ -1,0 +1,6 @@
+= DeskOS: mplayer RPM
+
+This is the _mplayer_ RPM package for the *DeskOS* operating system.
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/mplayer-1.1-33.20150505svn.el7.nux.src.rpm[mplayer-1.1-33.20150505svn.el7.nux.src.rpm]
